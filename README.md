@@ -1,2 +1,2 @@
-# web-app-test
-HTTP web server application
+# How to install source code in AWS EC2 Server?
+
