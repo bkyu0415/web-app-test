@@ -11,4 +11,4 @@ def index(request):
     return render(request,'demo.html')
 
 def current_time(request):
-    return render(request,'ct.html',{'a':int(time.time()), 'b': datetime.fromtimestamp(time.time(), tzlocal.get_localzone()).strftime("%A,%B %d,%Y %H:%M:%S %p %Z %z")})
+    return render(request,'ct.html',{'a':int(time.time()), 'b': datetime.fromtimestamp(time.time(), tzlocal.get_localzone()).strftime("%A,%B %d,%Y %H:%M:%S %p GMT %z")})
