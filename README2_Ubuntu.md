@@ -24,33 +24,33 @@
   	
 ## C. Configuration in AWS EC2 server ubuntu instance  
   1. Install python2 and required packages
-         ```
+      ```
       sudo apt update
       ```
-         ```
+      ```
       sudo apt install python2
       ```      
-         ```
+      ```
       curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
       ```    
-         ```
+      ```
       sudo python2 get-pip.py
       ```
-         ```
+      ```
       pip2 install django
       ```      
-         ```
+      ```
       pip2 install tzlocal
       ```   
-           ```
+      ```
       python2 manage.py migrate
       ```
-         ```
+      ```
       nohup python2 ./manage.py runserver 0.0.0.0:8000
       ```      
 
    2. Time zone setting
-         ```
+      ```
       pip2 install tzlocal
       ```   
 
