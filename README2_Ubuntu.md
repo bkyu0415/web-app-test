@@ -51,11 +51,13 @@
 
    2. Time zone setting
       ```
-      sudo ln -s /usr/share/zoneinfo/Europe/Istanbul /etc/localtime
+      sudo unlink /etc/localtime
       ```   
-
-## D. Access to the web application
+      ```
+      sudo ln -s /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
+      ``` 
+## D. Back to Local Machine and access to the web application
 	 Open chrome to access urls(Assume IP is 18.219.37.17)
-   * http://18.218.152.132:8000/
-   * http://18.218.152.132:8000/current_time/
+   * http://3.19.235.193/:8000/
+   * http://3.19.235.193/:8000/current_time/
       
