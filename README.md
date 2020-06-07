@@ -4,6 +4,7 @@
 
 * Sign up for Amazon Web Services (AWS)
 * [Use EC2 service with Windows instance (Windows_Server-2019-English-Full-Base)](http://www.dropwizard.io/1.0.2/docs/)
+* Created a custom TCP inbound rule that allows TCP traffic on port 8000 anywhere
 * Get the EC2 windows instance IP address
 
 ## B. Transfer source code to EC2 server
