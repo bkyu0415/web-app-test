@@ -21,8 +21,8 @@
   * Open Windows Defender Firewall with Advanced Security through search box
   * Enter Windows Defender Firewall Properties
    <a href="https://ibb.co/34dDF68"><img src="https://i.ibb.co/XjLh50d/image.png" alt="image" border="0"></a>
-  * Turn On Firewall State for Domain Profile, Private Profile and Public Profile
-   <a href="https://imgbb.com/"><img src="https://i.ibb.co/jwS3RSD/image.png" alt="image" border="0"></a>
+  * Allow Inbound connections for Domain Profile, Private Profile and Public Profile
+   <a href="https://ibb.co/RNbZ4d4"><img src="https://i.ibb.co/PMj3z0z/image.png" alt="image" border="0"></a><br />
   * Save changes and check the overview page to see whether all firewall states are on
    <a href="https://ibb.co/hVycCVn"><img src="https://i.ibb.co/ZxVSNxw/image.png" alt="image" border="0"></a>
    
