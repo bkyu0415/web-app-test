@@ -23,7 +23,7 @@
   <a href="https://ibb.co/nrQtfRL"><img src="https://i.ibb.co/Y2fw8bL/image.png" alt="image" border="0"></a>
   	
 ## C. Configuration in AWS EC2 server ubuntu instance  
-  1. Install python2 and required packages
+  1. Install python2 and required packages and run the web server in the background
       ```
       sudo apt update
       ```
@@ -51,11 +51,11 @@
 
    2. Time zone setting
       ```
-      pip2 install tzlocal
+      sudo ln -s /usr/share/zoneinfo/Europe/Istanbul /etc/localtime
       ```   
 
 ## D. Access to the web application
 	 Open chrome to access urls(Assume IP is 18.219.37.17)
-   * http://18.219.37.17:8000/
-   * http://18.219.37.17:8000/current_time/
+   * http://18.218.152.132:8000/
+   * http://18.218.152.132:8000/current_time/
       
